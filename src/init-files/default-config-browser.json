@@ -1,10 +1,18 @@
 {
   "Addresses": {
     "Swarm": [],
-    "API": "/ip4/127.0.0.1/tcp/5002",
-    "Gateway": "/ip4/127.0.0.1/tcp/9090"
+    "API": "",
+    "Gateway": ""
   },
-  "Discovery": {},
+  "Discovery": {
+    "MDNS": {
+      "Enabled": false,
+      "Interval": 10
+    },
+    "webRTCStar": {
+      "Enabled": true
+    }
+  },
   "Bootstrap": [
     "/dns4/strawberry.i.ipfs.io/wss/ipfs/QmWyLSnMHW2H6bmCG9e9PQq4ARve94JduvGjbutUuzx4a8",
     "/dns4/blueberry.i.ipfs.io/wss/ipfs/QmVcj9MATxGTAFoQSbrJvZ9Fbs4Jzvrxy9hyJeRwbW8NeA"
